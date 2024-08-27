@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'project';
+    src: url('../fonts/MazdaTypeCyrillic-Medium.ttf');
+}
+
+*, *::after, *::before {
+    margin: 0 !important;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'project';
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    transform: none;
+}
+
+.link-nav {
+    color: rgb(145, 10, 45) !important;
+}
+
+.bg-height {
+    height: 400px;
+}
+
+
+.swiper-slide {
+    height: 520px;
+}
+
+.swiper-slide-1 {
+    background-image: url(../img/car-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.swiper-slide-2 {
+    background-image: url(../img/car-bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.swiper-slide-3 {
+    background-image: url(../img/car-bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 150px);
+    right: auto;
+}
+
+.swiper-button-next {
+    right: var(--swiper-navigation-sides-offset, 150px);
+    left: auto;
+}
+
+.repair-section,
+.repair-lists__section {
+    background-color: #F5F5F5;
+}
+
+/* .repair-article {
+    width: 380px;
+}
+
+
+@media (max-width: 1410px) {
+    .repair-article {
+        width: 350px;
+    }
+} */
+
+
+.repair-text {
+    width: 200px;
+}
+
+.cars-section,
+.repair-section,
+.accordtion-section,
+.our-benefits__section {
+    padding: 60px 0;
+}
+
+.cars-line {
+    width: 75px;
+    height: 3px;
+    background-color: rgb(145, 10, 45);
+}
+
+.our-benefits__section h2 {
+    color: rgb(86, 86, 86);
+}
+
+.promotion-container{
+    background-image: url(../img/promotion.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    margin: 70px auto !important;
+}
+
+.red-col {
+    background-color: red;
+    position: relative;
+    right: 12px;
+
+    clip-path: polygon(0 0, 100% 0%, 84% 100%, 0% 100%);
+
+    h2 {
+        font-size: 46px;
+        padding: 30px 0;
+    }
+}
+
+.black-col {
+    background-color: black;
+
+    clip-path: polygon(13% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+@media (max-width: 1400px) {
+    .red-col {
+
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+    .black-col {
+
+        h2 {
+            font-size: 28px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .red-col {
+        background-color: black;
+
+        h2 {
+            padding: 36px 0;
+            font-size: 30px;
+        }
+    }
+
+    .promotion-container {
+        background-size: auto;
+    }
+
+    .center-col {
+        font-size: 20px !important;
+    }
+
+    .black-col {
+        margin-top: 50px !important;
+
+        h2 {
+            font-size: 24px;
+            padding: 15px 0 !important;
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .center-col {
+        font-size: 15px !important;
+    }
+}
+
+.repair-lists__section {
+    padding: 75px 0;
+}
+
+.list-num {
+    font-size: 80px;
+}
+
+.mini-branch__repair {
+    margin-top: 90px !important;
+}
+
+.form-section {
+    background-image: url(../img/forms-car.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 46px 0 80px 0;
+    background-color: black;
+}
+
+footer {
+    background-color: rgb(20, 20, 27);
+    color: rgb(142, 142, 142);
+    padding: 50px 0 25px 0;
+}
+
+.footer-line {
+    width: 500px;
+    height: 3px;
+    border: 1px solid rgba(208, 208, 208, 0.29);
+}
+
+.footer-btn {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+}
+
+.number-line {
+    width: 300px;
+    height: 3px;
+    border: 1px solid rgba(208, 208, 208, 0.29);
+}
+
+.footer-full-line {
+    width: 100%;
+    height: 3px;
+    border: 1px solid rgba(208, 208, 208, 0.29);
+    margin-top: 50px !important;
+}
+
+.mini-text {
+    font-size: 12px;
+}
+
+@media (min-width: 1400px) {
+    .mini-text {
+        font-size: 19px;
+    }
+}
