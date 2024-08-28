@@ -242,3 +242,13 @@ footer {
         font-size: 19px;
     }
 }
+
+#dispatchModalWindow {
+    display: none;
+}
+
+.modal-dialog {
+    top: 222px;
+    left: 50%;
+    transform: translateX(-50%) !important;
+}
