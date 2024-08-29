@@ -18,7 +18,7 @@ ul li {
 }
 
 a {
-    transform: none;
+    text-decoration: none !important;
 }
 
 .link-nav {
@@ -70,18 +70,6 @@ a {
 .repair-lists__section {
     background-color: #F5F5F5;
 }
-
-/* .repair-article {
-    width: 380px;
-}
-
-
-@media (max-width: 1410px) {
-    .repair-article {
-        width: 350px;
-    }
-} */
-
 
 .repair-text {
     width: 200px;
@@ -251,4 +239,51 @@ footer {
     top: 222px;
     left: 50%;
     transform: translateX(-50%) !important;
+}
+
+.list-width a {
+    width: 190px;
+}
+
+.drop-down-menu a {
+    display: block;
+    color: white;
+    background-color: black;
+    border: 1px solid rgba(192, 192, 192, 0.4);
+
+    padding: 12px 10px;
+
+    &:hover {
+        background-color: white;
+        color: black;
+    }
+}
+
+.third-list {
+    right: -190px !important;
+    bottom: -50px;
+}
+
+.drop-down-menu li > ul {
+    display: none;
+}
+
+.list-width2 {
+    display: none !important;
+}
+
+.drop-down-menu li:hover > ul {
+    display: block !important;
+}
+
+@media (max-width: 992px) {
+    .header-logo {
+        width: 150px !important;
+    }
+
+    .third-list {
+        right: 0;
+        left: 0;
+        bottom: -100px;
+    }
 }
