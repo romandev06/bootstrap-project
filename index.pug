@@ -1,0 +1,447 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Bootstrap project figma
+  link(rel='stylesheet' href='css/bootstrap.min.css')
+  link(rel='stylesheet' href='css/fontello.css')
+  link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css')
+  link(rel='stylesheet' href='css/style.css')
+header
+  section.bg-black.py-2.py-lg-0
+    .container.mx-auto.d-flex.align-items-center.justify-content-between
+      .row.justify-content-center.align-items-center.mx-auto
+        img.col-3.header-logo.col-lg-2.rounded.img-thumbnail(src='img/logo.png' alt='')
+        a.col-3.col-lg-3.text-white.h6(href='tel:+79615225232') +7 (495) 507-96-49
+        button.my-3.my-lg-0.col-10.col-lg-2.bg-transparent.text-white.p-2.h6.rounded.border-warning.px-3 &ocy;&tcy;&pcy;&rcy;&acy;&vcy;&icy;&tcy;&softcy; &scy;&ocy;&ocy;&bcy;&shchcy;&iecy;&ncy;&icy;&iecy;
+        .col-12.col-sm-3.col-lg-3.order-last.order-lg-0.text-secondary.d-flex.flex-column.gap-0.text-white.fw-bold.list-width
+          ul.drop-down-menu.position-relative.mx-auto.mt-3.mt-lg-0
+            li
+              a(href='') &Kcy;&acy;&kcy;&icy;&iecy;-&tcy;&ocy; &dcy;&acy;&ncy;&ncy;&ycy;&iecy;
+              ul.position-absolute.start-0.z-2.d-flex.flex-column.list-width.list-width2
+                li
+                  a(href='') &pcy;&iecy;&rcy;&vcy;&ocy;&iecy;
+                li
+                  a(href='') &vcy;&tcy;&ocy;&rcy;&ocy;&iecy;
+                li.third-list
+                  a(href='') &tcy;&rcy;&iecy;&tcy;&softcy;&iecy;
+                  ul.position-absolute.end-0.third-list.list-width3.list-width
+                    li
+                      a(href='') &chcy;&iecy;&tcy;&vcy;&iecy;&rcy;&tcy;&ocy;&iecy;
+                    li
+                      a(href='') &pcy;&yacy;&tcy;&ocy;&iecy;
+        .col-12.col-sm-3.col-lg-2.d-flex.gap-3.justify-content-center
+          img.border.border-light.p-2.rounded-circle(src='img/whatsapp.svg' alt='')
+          img.border.border-light.rounded-circle.p-2(src='img/telegram.svg' alt='')
+main
+  section
+    .swiper.mySwiper
+      .swiper-wrapper
+        .swiper-slide.swiper-slide-1
+          section.container.mx-auto.mt-5
+            .row
+              h3.col-12.text-white.mb-1 &Tcy;&iecy;&khcy;&ncy;&icy;&chcy;&iecy;&scy;&kcy;&icy;&jcy; &tscy;&iecy;&ncy;&tcy;&rcy; 
+              h2.col-12.text-white.mb-2 DVS-MAZDA
+              p.col-12.text-white &Bcy;&iecy;&scy;&pcy;&lcy;&acy;&tcy;&ncy;&acy;&yacy; &kcy;&ocy;&mcy;&pcy;&softcy;&yucy;&tcy;&iecy;&rcy;&ncy;&acy;&yacy; &dcy;&icy;&acy;&gcy;&ncy;&ocy;&scy;&tcy;&icy;&kcy;&acy; &pcy;&rcy;&icy; &pcy;&iecy;&rcy;&vcy;&ocy;&mcy; &ocy;&bcy;&rcy;&acy;&shchcy;&iecy;&ncy;&icy;&icy;
+        .swiper-slide.swiper-slide-2
+          section.container.mx-auto.mt-5
+            .row
+              h3.col-12.text-white.mb-1 &Tcy;&iecy;&khcy;&ncy;&icy;&chcy;&iecy;&scy;&kcy;&icy;&jcy; &tscy;&iecy;&ncy;&tcy;&rcy; 
+              p.col-12.text-white &Vcy; &tscy;&iecy;&ncy;&tcy;&rcy;&iecy; &ocy; &bcy;&ycy;&lcy;&ocy; &ncy;&acy;&jcy;&tcy;&icy;  &vcy;&kcy;&ucy;&scy;&ucy;, &scy;&scy;&icy;&ocy;&ncy;&acy;&lcy;&softcy;&ncy;&ucy;&yucy; &pcy;&ocy;&mcy;&ocy;&shchcy;&softcy; &ocy;&tcy; &ocy;&pcy;&ycy;&tcy;&ncy;&ycy;&khcy; &mcy;&iecy;&khcy;&acy;&ncy;&icy;&kcy;&ocy;&vcy;.
+        .swiper-slide.swiper-slide-3
+          section.container.mx-auto.mt-5
+            .row
+              h3.col-12.text-white.mb-1 &Tcy;&iecy;&khcy;&ncy;&icy;&chcy;&iecy;&scy;&kcy;&icy;&jcy; &tscy;&iecy;&ncy;&tcy;&rcy; 
+              p.col-12.text-white &Bcy;&iecy;&scy;&pcy;&lcy;&acy;&tcy;&ncy;&acy;&yacy; &pcy;&rcy;&icy;&vcy;&iecy;&tcy; &ncy;&iecy; &zcy;&ncy;&acy;&lcy; &chcy;&tcy;&ocy; &dcy;&iecy;&lcy;&acy;&tcy;&softcy;
+      .swiper-button-next
+        img(src='img/next-arrow.svg' alt='')
+      .swiper-button-prev
+        img(src='img/prev-arrow.svg' alt='prev')
+      .swiper-pagination
+  section.modal-window__section.mx-auto
+    button#dispatchModalWindow(type='button' data-bs-toggle='modal' data-bs-target='#exampleModal')
+  section.repair-section
+    .container.mx-auto.benefits-container
+      .row.justify-content-center.gap-4
+        article.repair-article.col-8.col-xl-3.d-flex.align-items-center.bg-white.justify-content-center.position-relative
+          img.d-block.position-absolute.start-0(src='img/Group 1.svg' alt='')
+          p.text-uppercase.text-center.py-3.repair-text &Tcy;&iecy;&khcy;&ocy;&bcy;&scy;&lcy;&ucy;&zhcy;&icy;&vcy;&acy;&ncy;&icy;&iecy;
+        article.repair-article.col-8.col-xl-3.d-flex.align-items-center.bg-white.justify-content-center.position-relative
+          img.d-block.position-absolute.start-0(src='img/Group 2.svg' alt='')
+          p.text-center.py-3.repair-text &Rcy;&IEcy;&Mcy;&Ocy;&Ncy;&Tcy; &Acy;&Kcy;&Pcy;&Pcy;
+        article.repair-article.col-8.col-xl-3.mb-3.mb-xl-0.d-flex.align-items-center.bg-white.justify-content-center.position-relative
+          img.d-block.position-absolute.start-0(src='img/Group (2).svg' alt='')
+          p.text-center.py-3.text-wrap.repair-text &Kcy;&Ocy;&Mcy;&Pcy;&SOFTcy;&YUcy;&Tcy;&IEcy;&Rcy;&Ncy;&Acy;&YAcy; &Dcy;&Icy;&Acy;&Gcy;&Ncy;&Ocy;&Scy;&Tcy;&Icy;&Kcy;&Acy;
+      .row.justify-content-center.gap-4
+        article.repair-article.col-8.col-xl-3.d-flex.align-items-center.bg-white.justify-content-center.position-relative
+          img.d-block.position-absolute.start-0(src='img/Group.svg' alt='')
+          p.text-uppercase.text-center.py-3.repair-text &Scy;&KHcy;&Ocy;&Dcy; &Rcy;&Acy;&Zcy;&Vcy;&Acy;&Lcy;
+        article.repair-article.col-8.col-xl-3.d-flex.align-items-center.bg-white.justify-content-center.position-relative
+          img.d-block.position-absolute.start-0(src='img/Group (1).svg' alt='')
+          p.text-center.py-3.repair-text &Kcy;&Ucy;&Zcy;&Ocy;&Vcy;&Ncy;&Ocy;&Jcy; &Rcy;&IEcy;&Mcy;&Ocy;&Ncy;&Tcy;
+        article.repair-article.col-8.col-xl-3.mb-3.mb-xl-0.d-flex.align-items-center.bg-white.justify-content-center.position-relative
+          img.d-block.position-absolute.start-0(src='img/Group (2).svg' alt='')
+          p.text-center.py-3.repair-text &Ecy;&Vcy;&Acy;&Kcy;&Ucy;&Acy;&Tcy;&Ocy;&Rcy;
+      .row.justify-content-center.gap-4
+        article.repair-article.col-8.col-xl-3.d-flex.align-items-center.bg-white.justify-content-center.position-relative
+          img.d-block.position-absolute.start-0(src='img/Group (3).svg' alt='')
+          p.text-uppercase.text-center.py-3.repair-text &Rcy;&IEcy;&Mcy;&Ocy;&Ncy;&Tcy; &Dcy;&Vcy;&Icy;&Gcy;&Acy;&Tcy;&IEcy;&Lcy;&YAcy;
+        article.repair-article.col-8.col-xl-3.d-flex.align-items-center.bg-white.justify-content-center.position-relative
+          img.d-block.position-absolute.start-0(src='img/Group (4).svg' alt='')
+          p.text-center.py-3.repair-text &Pcy;&Rcy;&Ocy;&Tcy;&Icy;&Vcy;&Ocy;&Ucy;&Gcy;&Ocy;&Ncy;&Ncy;&Ycy;&IEcy; &Scy;&Icy;&Scy;&Tcy;&IEcy;&Mcy;&Ycy;
+        article.repair-article.col-8.col-xl-3.mb-3.mb-xl-0.d-flex.align-items-center.bg-white.justify-content-center.position-relative
+          img.d-block.position-absolute.start-0(src='img/Group (5).svg' alt='')
+          p.text-center.py-3.repair-text &Ecy;&Lcy;&IEcy;&Kcy;&Tcy;&Rcy;&Icy;&Kcy;&Acy;
+      .row.justify-content-center.gap-4
+        article.repair-article.col-8.col-xl-3.d-flex.align-items-center.bg-white.justify-content-center.position-relative
+          img.d-block.position-absolute.start-0(src='img/Group (6).svg' alt='')
+          p.text-uppercase.text-center.py-3.repair-text &Zcy;&Acy;&Pcy;&Rcy;&Acy;&Vcy;&Kcy;&Acy; &Icy; &Rcy;&IEcy;&Mcy;&Ocy;&Ncy;&Tcy; &Kcy;&Ocy;&Ncy;&Dcy;&Icy;&TScy;&Icy;&Ocy;&Ncy;&IEcy;&Rcy;&Ocy;&Vcy;
+        article.repair-article.col-8.col-xl-3.d-flex.align-items-center.bg-white.justify-content-center.position-relative
+          img.d-block.position-absolute.start-0(src='img/Group (7).svg' alt='')
+          p.text-center.py-3.repair-text &Rcy;&IEcy;&Mcy;&Ocy;&Ncy;&Tcy; &Scy;&Icy;&Scy;&Tcy;&IEcy;&Mcy;&Ycy; &Ocy;&KHcy;&Lcy;&Acy;&ZHcy;&Dcy;&IEcy;&Ncy;&Icy;&YAcy;
+        article.repair-article.col-8.col-xl-3.d-flex.align-items-center.bg-white.justify-content-center.position-relative
+          img.d-block.position-absolute.start-0(src='img/Group (4).svg' alt='')
+          p.text-center.py-3.repair-text &Rcy;&IEcy;&Mcy;&Ocy;&Ncy;&Tcy; &Vcy;&Ycy;&KHcy;&Lcy;&Ocy;&Pcy;&Ncy;&Ocy;&Jcy; &Scy;&Icy;&Scy;&Tcy;&IEcy;&Mcy;&Ycy;
+  section.cars-section
+    .container.mx-auto.text-center
+      h2.mb-3 &Acy;&Vcy;&Tcy;&Ocy;&Mcy;&Ocy;&Bcy;&Icy;&Lcy;&Icy; &Mcy;&Acy;&Zcy;&Dcy;&Acy;
+      span.cars-line.mb-5.d-block.mx-auto
+      .row.mx-auto.text-center
+        .col-12.col-md-6.col-xl-3
+          img.d-block.mx-auto(src='img/1 Mazda 2_2.svg' alt='')
+          h4.text-center Mazda 2
+          p.text-center 1980 &mdash; 2015
+        .col-12.col-md-6.col-xl-3
+          img.d-block.mx-auto(src='img/5 Mazda 6_2.svg' alt='')
+          h4.text-center Mazda 3
+          p.text-center 1980 &mdash; 2015
+        .col-12.col-md-6.col-xl-3
+          img.d-block.mx-auto(src='img/7 Mazda CX-3_2.svg' alt='')
+          h4.text-center Mazda 5
+          p.text-center 1998 &mdash; 2000
+        .col-12.col-md-6.col-xl-3
+          img.d-block.mx-auto(src='img/4 Mazda 5_2.svg' alt='')
+          h4.text-center Mazda 6
+          p.text-center 1987 &mdash; 1995
+      .row.mx-auto.text-center
+        .col-12.col-md-6.col-xl-3
+          img.d-block.mx-auto(src='img/1 Mazda 2_2.svg' alt='')
+          h4.text-center Mazda 2
+          p.text-center 1980 &mdash; 2015
+        .col-12.col-md-6.col-xl-3
+          img.d-block.mx-auto(src='img/5 Mazda 6_2.svg' alt='')
+          h4.text-center Mazda 3
+          p.text-center 1980 &mdash; 2015
+        .col-12.col-md-6.col-xl-3
+          img.d-block.mx-auto(src='img/7 Mazda CX-3_2.svg' alt='')
+          h4.text-center Mazda 5
+          p.text-center 1998 &mdash; 2000
+        .col-12.col-md-6.col-xl-3
+          img.d-block.mx-auto(src='img/4 Mazda 5_2.svg' alt='')
+          h4.text-center Mazda 6
+          p.text-center 1987 &mdash; 1995
+      .row.mx-auto.text-center
+        .col-12.col-md-6.col-xl-3
+          img.d-block.mx-auto(src='img/1 Mazda 2_2.svg' alt='')
+          h4.text-center Mazda 2
+          p.text-center 1980 &mdash; 2015
+        .col-12.col-md-6.col-xl-3
+          img.d-block.mx-auto(src='img/5 Mazda 6_2.svg' alt='')
+          h4.text-center Mazda 3
+          p.text-center 1980 &mdash; 2015
+        .col-12.col-md-6.col-xl-3
+          img.d-block.mx-auto(src='img/7 Mazda CX-3_2.svg' alt='')
+          h4.text-center Mazda 5
+          p.text-center 1998 &mdash; 2000
+        .col-12.col-md-6.col-xl-3
+          img.d-block.mx-auto(src='img/4 Mazda 5_2.svg' alt='')
+          h4.text-center Mazda 6
+          p.text-center 1987 &mdash; 1995
+  section.accordtion-section
+    .container.mx-auto.text-center
+      .row
+        .col-12
+          h2 &Scy;&Tcy;&Acy;&Ncy;&TScy;&Icy;&YAcy; &Tcy;&IEcy;&KHcy;&Ncy;&Icy;&CHcy;&IEcy;&Scy;&Kcy;&Ocy;&Gcy;&Ocy; &Ocy;&Bcy;&Scy;&Lcy;&Ucy;&ZHcy;&Icy;&Vcy;&Acy;&Ncy;&Icy;&YAcy; &Acy;&Vcy;&Tcy;&Ocy;&Mcy;&Ocy;&Bcy;&Icy;&Lcy;&IEcy;&Jcy;&laquo;&Dcy;&Vcy;&Scy;-&Mcy;&Acy;&Zcy;&Dcy;&Acy;&raquo;
+        .col-12
+          span.cars-line.my-3.d-block.mx-auto
+        .col-12
+          h2.text-uppercase.my-1 &Mcy;&ycy; &pcy;&rcy;&iecy;&dcy;&lcy;&acy;&gcy;&acy;&iecy;&mcy;
+      .row.mt-5
+        .col-12.col-lg-6
+          #accordionExample1.accordion
+            .accordion-item
+              h2.accordion-header
+                button.accordion-button(type='button' data-bs-toggle='collapse' data-bs-target='#collapseOne1' aria-expanded='true' aria-controls='collapseOne1')
+                  | 1 &Fcy;&acy;&kcy;&tcy;
+              #collapseOne1.accordion-collapse.collapse.show(data-bs-parent='#accordionExample1')
+                .accordion-body
+                  p &Ocy;&pcy;&icy;&scy;&acy;&ncy;&icy;&iecy; 1 &fcy;&acy;&kcy;&tcy;&acy;
+            .accordion-item
+              h2.accordion-header
+                button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapseTwo2' aria-expanded='false' aria-controls='collapseTwo2')
+                  | 2 &Fcy;&acy;&kcy;&tcy;
+              #collapseTwo2.accordion-collapse.collapse(data-bs-parent='#accordionExample1')
+                .accordion-body
+                  p &Ocy;&pcy;&icy;&scy;&acy;&ncy;&icy;&iecy; 2 &fcy;&acy;&kcy;&tcy;&acy;
+            .accordion-item
+              h2.accordion-header
+                button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapseThree3' aria-expanded='false' aria-controls='collapseThree3')
+                  | 3 &Fcy;&acy;&kcy;&tcy;
+              #collapseThree3.accordion-collapse.collapse(data-bs-parent='#accordionExample1')
+                .accordion-body
+                  p &Ocy;&pcy;&icy;&scy;&acy;&ncy;&icy;&iecy; 3 &fcy;&acy;&kcy;&tcy;&acy;
+        .col-12.col-lg-6.mt-5.mt-lg-0
+          #accordionExample2.accordion
+            .accordion-item
+              h2.accordion-header
+                button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapseOne11' aria-expanded='true' aria-controls='collapseOne11')
+                  | 4 &Fcy;&acy;&kcy;&tcy;
+              #collapseOne11.accordion-collapse.collapse(data-bs-parent='#accordionExample2')
+                .accordion-body
+                  p &Ocy;&pcy;&icy;&scy;&acy;&ncy;&icy;&iecy; 4 &fcy;&acy;&kcy;&tcy;&acy;
+            .accordion-item
+              h2.accordion-header
+                button.accordion-button(type='button' data-bs-toggle='collapse' data-bs-target='#collapseTwo22' aria-expanded='false' aria-controls='collapseTwo22')
+                  | 5 &Fcy;&acy;&kcy;&tcy;
+              #collapseTwo22.accordion-collapse.collapse.show(data-bs-parent='#accordionExample2')
+                .accordion-body
+                  p &Ocy;&pcy;&icy;&scy;&acy;&ncy;&icy;&iecy; 5 &fcy;&acy;&kcy;&tcy;&acy;
+            .accordion-item
+              h2.accordion-header
+                button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapseThree33' aria-expanded='false' aria-controls='collapseThree33')
+                  | 6 &Fcy;&acy;&kcy;&tcy;
+              #collapseThree33.accordion-collapse.collapse(data-bs-parent='#accordionExample2')
+                .accordion-body
+                  p &Ocy;&pcy;&icy;&scy;&acy;&ncy;&icy;&iecy; 6 &fcy;&acy;&kcy;&tcy;&acy;
+  section.our-benefits__section
+    .container.mx-auto.text-center
+      .row
+        .col-12
+          h2.text-uppercase.mb-5 &ncy;&acy;&shcy;&icy; &pcy;&rcy;&iecy;&icy;&mcy;&ucy;&shchcy;&iecy;&scy;&tcy;&vcy;&acy;
+      .row.justify-content-center
+        .col-12.col-md-6.col-lg-4.d-flex.align-items-center.gap-2
+          img(src='img/icon.svg' alt='')
+          p.mb-3 &Gcy;&acy;&rcy;&acy;&ncy;&tcy;&icy;&yacy; &ncy;&acy; &rcy;&acy;&bcy;&ocy;&tcy;&ycy; &icy; &zcy;&acy;&pcy;&acy;&scy;&ncy;&ycy;&iecy; &chcy;&acy;&scy;&tcy;&icy; &dcy;&lcy;&yacy; &acy;&vcy;&tcy;&ocy;&mcy;&ocy;&bcy;&icy;&lcy;&iecy;&jcy; Mazda
+        .col-12.col-md-6.col-lg-4.d-flex.align-items-center.gap-2
+          img(src='img/icon2.svg' alt='')
+          p.mb-3 &Dcy;&ocy;&scy;&tcy;&ucy;&pcy;&ncy;&ycy;&iecy; &tscy;&iecy;&ncy;&ycy; &ncy;&acy; &rcy;&iecy;&mcy;&ocy;&ncy;&tcy; &icy; &ocy;&bcy;&lcy;&ucy;&zhcy;&icy;&vcy;&acy;&ncy;&icy;&iecy; &acy;&vcy;&tcy;&ocy;&mcy;&ocy;&bcy;&icy;&lcy;&iecy;&jcy; Mazda
+        .col-12.col-md-6.col-lg-4.d-flex.align-items-center.gap-2
+          img(src='img/icon3.svg' alt='')
+          p.mb-3 &Scy;&vcy;&ocy;&bcy;&ocy;&dcy;&ncy;&ycy;&jcy; &dcy;&ocy;&scy;&tcy;&ucy;&pcy; &vcy; &rcy;&iecy;&mcy;&zcy;&ocy;&ncy;&ucy; &ndash; &ocy;&tcy;&scy;&ucy;&tcy;&scy;&tcy;&vcy;&icy;&iecy; &ncy;&iecy; &scy;&ocy;&gcy;&lcy;&acy;&scy;&ocy;&vcy;&acy;&ncy;&ncy;&ycy;&khcy; &scy;&kcy;&rcy;&ycy;&tcy;&ycy;&khcy; &rcy;&acy;&bcy;&ocy;&tcy;
+        .col-12.col-md-6.col-lg-4.d-flex.align-items-center.gap-2
+          img(src='img/icon3.svg' alt='')
+          p.mb-3 &Scy;&vcy;&ocy;&bcy;&ocy;&dcy;&ncy;&ycy;&jcy; &dcy;&ocy;&scy;&tcy;&ucy;&pcy; &vcy; &rcy;&iecy;&mcy;&zcy;&ocy;&ncy;&ucy; &ndash; &ocy;&tcy;&scy;&ucy;&tcy;&scy;&tcy;&vcy;&icy;&iecy; &ncy;&iecy; &scy;&ocy;&gcy;&lcy;&acy;&scy;&ocy;&vcy;&acy;&ncy;&ncy;&ycy;&khcy; &scy;&kcy;&rcy;&ycy;&tcy;&ycy;&khcy; &rcy;&acy;&bcy;&ocy;&tcy;
+        .col-12.col-md-6.col-lg-4.d-flex.align-items-center.gap-2
+          img(src='img/icon3.svg' alt='')
+          p.mb-3 &Scy;&vcy;&ocy;&bcy;&ocy;&dcy;&ncy;&ycy;&jcy; &dcy;&ocy;&scy;&tcy;&ucy;&pcy; &vcy; &rcy;&iecy;&mcy;&zcy;&ocy;&ncy;&ucy; &ndash; &ocy;&tcy;&scy;&ucy;&tcy;&scy;&tcy;&vcy;&icy;&iecy; &ncy;&iecy; &scy;&ocy;&gcy;&lcy;&acy;&scy;&ocy;&vcy;&acy;&ncy;&ncy;&ycy;&khcy; &scy;&kcy;&rcy;&ycy;&tcy;&ycy;&khcy; &rcy;&acy;&bcy;&ocy;&tcy;
+  section.promotion-section
+    .promotion-container.container.mx-auto.text-center
+      .row.justify-content-between.align-items-center.text-white
+        .col-6.col-xl-3.red-col
+          h2 &Acy;&kcy;&tscy;&icy;&yacy;!
+        .col-6.col-xl-6
+          h2.fs-4.text-xl-start.center-col &Ucy; &Vcy;&Acy;&Scy; &Vcy;&Tcy;&Ocy;&Rcy;&Ocy;&Jcy; &Scy;&IEcy;&Mcy;&IEcy;&Jcy;&Ncy;&Ycy;&Jcy; &Acy;&Vcy;&Tcy;&Ocy;&Mcy;&Ocy;&Bcy;&Icy;&Lcy;&SOFTcy; &laquo;&Ncy;&IEcy; &Mcy;&Acy;&Zcy;&Dcy;&Acy;&raquo; &ndash; &Mcy;&Ycy; &Pcy;&Rcy;&Ocy;&Vcy;&IEcy;&Dcy;&IEcy;&Mcy; &Pcy;&Lcy;&Acy;&Ncy;&Ocy;&Vcy;&Ocy;&IEcy; &Tcy;&Ocy; &Icy; &Rcy;&IEcy;&Mcy;&Ocy;&Ncy;&Tcy;!
+        .col-12.col-xl-3.black-col
+          h2 &Pcy;&ocy;&dcy;&rcy;&ocy;&bcy;&ncy;&ocy;&scy;&tcy;&icy; &ucy; &ncy;&acy;&shcy;&icy;&khcy; &scy;&pcy;&iecy;&tscy;&icy;&acy;&lcy;&icy;&scy;&tcy;&ocy;&vcy;!
+  section.repair-lists__section
+    .container.mx-auto.text-center
+      .row
+        .col-12
+          h2 &Rcy;&IEcy;&Mcy;&Ocy;&Ncy;&Tcy; &Icy; &Scy;&IEcy;&Rcy;&Vcy;&Icy;&Scy; &Mcy;&Acy;&Zcy;&Dcy;&Acy;
+      .row
+        .col-12.mt-3.mb-5
+          h3
+            | &Ocy;&bcy;&scy;&lcy;&ucy;&zhcy;&icy;&vcy;&acy;&ncy;&icy;&iecy; &icy; &rcy;&iecy;&mcy;&ocy;&ncy;&tcy; &acy;&vcy;&tcy;&ocy;&mcy;&ocy;&bcy;&icy;&lcy;&yacy; Mazda &vcy;&ycy;&pcy;&ocy;&lcy;&ncy;&yacy;&iecy;&tcy;&scy;&yacy; &pcy;&ocy; &ucy;&scy;&tcy;&acy;&ncy;&ocy;&vcy;&lcy;&iecy;&ncy;&ncy;&ocy;&mcy;&ucy; &pcy;&rcy;&ocy;&icy;&zcy;&vcy;&ocy;&dcy;&icy;&tcy;&iecy;&lcy;&iecy;&mcy; &rcy;&iecy;&gcy;&lcy;&acy;&mcy;&iecy;&ncy;&tcy;&ucy;
+      .row.justify-content-center.gap-3
+        .col-7.col-lg-5
+          .list-group
+            a.list-group-item.list-group-item-action.flex-column.align-items-start.active(href='#')
+              .d-flex.w-100.justify-content-between
+                h5.mb-3 &Dcy;&icy;&acy;&gcy;&ncy;&ocy;&scy;&tcy;&icy;&kcy;&acy; &acy;&vcy;&tcy;&ocy;&mcy;&ocy;&bcy;&icy;&lcy;&iecy;&jcy; Mazda
+                small.small-hours 2 hours ago
+              p.mb-1
+                | &Pcy;&rcy;&icy; &tcy;&iecy;&khcy;&ncy;&icy;&chcy;&iecy;&scy;&kcy;&ocy;&mcy; &ocy;&bcy;&scy;&lcy;&ucy;&zhcy;&icy;&vcy;&acy;&ncy;&icy;&icy; &ncy;&acy;&shcy;&icy; &scy;&pcy;&iecy;&tscy;&icy;&acy;&lcy;&icy;&scy;&tcy;&ycy; &pcy;&rcy;&ocy;&vcy;&ocy;&dcy;&yacy;&tcy; &kcy;&ocy;&mcy;&pcy;&softcy;&yucy;&tcy;&iecy;&rcy;&ncy;&ucy;&yucy; &dcy;&icy;&acy;&gcy;&ncy;&ocy;&scy;&tcy;&icy;&kcy;&ucy; &icy; &vcy;&icy;&zcy;&ucy;&acy;&lcy;&softcy;&ncy;&ycy;&jcy; &ocy;&scy;&mcy;&ocy;&tcy;&rcy; &acy;&vcy;&tcy;&ocy;&mcy;&ocy;&bcy;&icy;&lcy;&yacy; Mazda.
+                | &Vcy;&ycy;&pcy;&ocy;&lcy;&ncy;&yacy;&iecy;&tcy;&scy;&yacy; &kcy;&ocy;&ncy;&tcy;&rcy;&ocy;&lcy;&softcy; &rcy;&acy;&bcy;&ocy;&tcy;&ocy;&scy;&pcy;&ocy;&scy;&ocy;&bcy;&ncy;&ocy;&scy;&tcy;&icy; &ocy;&scy;&ncy;&ocy;&vcy;&ncy;&ycy;&khcy; &scy;&icy;&scy;&tcy;&iecy;&mcy; &acy;&vcy;&tcy;&ocy;&mcy;&ocy;&bcy;&icy;&lcy;&yacy; &ndash; &rcy;&ucy;&lcy;&iecy;&vcy;&ocy;&iecy; &ucy;&pcy;&rcy;&acy;&vcy;&lcy;&iecy;&ncy;&icy;&iecy;, &tcy;&ocy;&rcy;&mcy;&ocy;&zcy;&ncy;&acy;&yacy; &scy;&icy;&scy;&tcy;&iecy;&mcy;&acy;, &dcy;&vcy;&icy;&gcy;&acy;&tcy;&iecy;&lcy;&softcy;, &kcy;&ocy;&rcy;&ocy;&bcy;&kcy;&acy; &pcy;&iecy;&rcy;&iecy;&dcy;&acy;&chcy;, &pcy;&ocy;&dcy;&vcy;&iecy;&scy;&kcy;&acy;, &ecy;&lcy;&iecy;&kcy;&tcy;&rcy;&icy;&kcy;&acy;.
+        .col-7.col-lg-5
+          .list-group
+            a.list-group-item.list-group-item-action.flex-column.align-items-start(href='#')
+              .d-flex.w-100.justify-content-between
+                h5.mb-3 &Rcy;&iecy;&mcy;&ocy;&ncy;&tcy; &acy;&vcy;&tcy;&ocy;&mcy;&ocy;&bcy;&icy;&lcy;&iecy;&jcy; Mazda
+                small.small-hours 2 days ago
+              p.mb-1
+                | &Mcy;&ycy; &pcy;&rcy;&ocy;&vcy;&ocy;&dcy;&icy;&mcy; &tcy;&iecy;&kcy;&ucy;&shchcy;&icy;&jcy;, &acy; &tcy;&acy;&kcy;&zhcy;&iecy; &kcy;&acy;&pcy;&icy;&tcy;&acy;&lcy;&softcy;&ncy;&ycy;&jcy; &rcy;&iecy;&mcy;&ocy;&ncy;&tcy; &ucy;&zcy;&lcy;&acy; &scy; &pcy;&ocy;&lcy;&ncy;&ycy;&mcy; &dcy;&iecy;&mcy;&ocy;&ncy;&tcy;&acy;&zhcy;&iecy;&mcy;, &rcy;&acy;&zcy;&bcy;&ocy;&rcy;&kcy;&ocy;&jcy; &icy; &dcy;&iecy;&fcy;&iecy;&kcy;&tcy;&ocy;&vcy;&kcy;&ocy;&jcy;
+              .d-flex.justify-content-center.gap-4.mt-3
+                small.text-danger
+                  | &Rcy;&iecy;&mcy;&ocy;&ncy;&tcy; &dcy;&vcy;&icy;&gcy;&acy;&tcy;&iecy;&lcy;&yacy; &Mcy;&acy;&zcy;&dcy;&acy; 
+                  br
+                  |  &Rcy;&iecy;&mcy;&ocy;&ncy;&tcy; &Acy;&Kcy;&Pcy;&Pcy; &Mcy;&acy;&zcy;&dcy;&acy; 
+                  br
+                  |  &Rcy;&iecy;&mcy;&ocy;&ncy;&tcy; &khcy;&ocy;&dcy;&ocy;&vcy;&ocy;&jcy; &Mcy;&acy;&zcy;&dcy;&acy; 
+                  br
+                  |  &Rcy;&iecy;&mcy;&ocy;&ncy;&tcy; &ecy;&lcy;&iecy;&kcy;&tcy;&rcy;&icy;&kcy;&icy; &Mcy;&acy;&zcy;&dcy;&acy;
+                small.text-danger
+                  | &Rcy;&iecy;&mcy;&ocy;&ncy;&tcy; &dcy;&vcy;&icy;&gcy;&acy;&tcy;&iecy;&lcy;&yacy; &Mcy;&acy;&zcy;&dcy;&acy; 
+                  br
+                  |  &Rcy;&iecy;&mcy;&ocy;&ncy;&tcy; &Acy;&Kcy;&Pcy;&Pcy; &Mcy;&acy;&zcy;&dcy;&acy; 
+                  br
+                  |  &Rcy;&iecy;&mcy;&ocy;&ncy;&tcy; &khcy;&ocy;&dcy;&ocy;&vcy;&ocy;&jcy; &Mcy;&acy;&zcy;&dcy;&acy; 
+                  br
+                  |  &Rcy;&iecy;&mcy;&ocy;&ncy;&tcy; &ecy;&lcy;&iecy;&kcy;&tcy;&rcy;&icy;&kcy;&icy; &Mcy;&acy;&zcy;&dcy;&acy;
+        .col-7.col-lg-5
+          .list-group
+            a.list-group-item.list-group-item-action.flex-column.align-items-start(href='#')
+              .d-flex.w-100.justify-content-between
+                h5.mb-3 &Pcy;&lcy;&acy;&ncy;&ocy;&vcy;&ocy;&iecy; &icy; &vcy;&ncy;&iecy;&pcy;&lcy;&acy;&ncy;&ocy;&vcy;&ocy;&iecy; &Tcy;&Ocy; &acy;&vcy;&tcy;&ocy;&mcy;&ocy;&bcy;&icy;&lcy;&iecy;&jcy; Mazda
+                small.small-hours 4 days ago
+              p.mb-1 &Zcy;&acy;&mcy;&iecy;&ncy;&acy; &tcy;&iecy;&khcy;&ncy;&icy;&chcy;&iecy;&scy;&kcy;&icy;&khcy; &zhcy;&icy;&dcy;&kcy;&ocy;&scy;&tcy;&iecy;&jcy; &icy; &rcy;&acy;&scy;&khcy;&ocy;&dcy;&ncy;&ycy;&khcy; &mcy;&acy;&tcy;&iecy;&rcy;&icy;&acy;&lcy;&ocy;&vcy; &scy;&ocy;&gcy;&lcy;&acy;&scy;&ncy;&ocy; &pcy;&rcy;&ocy;&bcy;&iecy;&gcy;&ucy; &acy;&vcy;&tcy;&ocy;&mcy;&ocy;&bcy;&icy;&lcy;&yacy;.
+              small Donec id elit non mi 
+        .col-7.col-lg-5
+          .list-group
+            a.list-group-item.list-group-item-action.flex-column.align-items-start(href='#')
+              .d-flex.w-100.justify-content-between
+                h5.mb-3 &SHcy;&icy;&ncy;&ocy;&mcy;&ocy;&ncy;&tcy;&acy;&zhcy;
+                small.small-hours 7 days ago
+              .d-flex
+                small.text-danger.text-start
+                  | &Rcy;&iecy;&gcy;&ucy;&lcy;&icy;&rcy;&ocy;&vcy;&kcy;&acy; &rcy;&acy;&zcy;&vcy;&acy;&lcy;&acy;-&scy;&khcy;&ocy;&zhcy;&dcy;&iecy;&ncy;&icy;&yacy; 
+                  br
+                  |  &Bcy;&acy;&lcy;&acy;&ncy;&scy;&icy;&rcy;&ocy;&vcy;&kcy;&acy; &dcy;&icy;&scy;&kcy;&ocy;&vcy; 
+                  br
+                  |  &Mcy;&iecy;&lcy;&kcy;&icy;&jcy; &rcy;&iecy;&mcy;&ocy;&ncy;&tcy; &shcy;&icy;&ncy;
+      article.mini-branch__repair
+        .row
+          .col-12
+            h2 &Zcy;&Acy;&Pcy;&Acy;&Scy;&Ncy;&Ycy;&IEcy; &CHcy;&Acy;&Scy;&Tcy;&Icy; &Dcy;&Lcy;&YAcy; &Acy;&Vcy;&Tcy;&Ocy;&Mcy;&Ocy;&Bcy;&Icy;&Lcy;&IEcy;&Jcy; &Mcy;&Acy;&Zcy;&Dcy;&Acy;
+        .row
+          .col-12.mt-4
+            span.cars-line.mb-3.d-block.mx-auto
+        .row.gap-3.gap-md-0
+          .d-flex.align-items-center.col-12.col-md-6
+            h2.list-num 01
+            p
+              | &Ncy;&acy;&shcy;&icy; &mcy;&acy;&scy;&tcy;&iecy;&rcy;&acy; &icy;&mcy;&iecy;&yucy;&tcy; &mcy;&ncy;&ocy;&gcy;&ocy;&lcy;&iecy;&tcy;&ncy;&icy;&jcy; &ocy;&pcy;&ycy;&tcy; &rcy;&acy;&bcy;&ocy;&tcy;&ycy; &scy; &acy;&vcy;&tcy;&ocy;&mcy;&ocy;&bcy;&icy;&lcy;&yacy;&mcy;&icy; Mazda &icy; &zcy;&ncy;&acy;&yucy;&tcy; &scy;&pcy;&iecy;&tscy;&icy;&fcy;&icy;&kcy;&ucy; &vcy;&scy;&iecy;&khcy; &mcy;&ocy;&dcy;&iecy;&lcy;&iecy;&jcy; &mcy;&acy;&rcy;&kcy;&icy;.
+          .d-flex.align-items-center.col-12.col-md-6
+            h2.list-num.text-white 02
+            p
+              | &Ncy;&acy; &ncy;&acy;&shcy;&iecy;&mcy; &scy;&kcy;&lcy;&acy;&dcy;&iecy; &vcy;&scy;&iecy;&gcy;&dcy;&acy; &icy;&mcy;&iecy;&yucy;&tcy;&scy;&yacy; &ocy;&scy;&ncy;&ocy;&vcy;&ncy;&ycy;&iecy; &zcy;&acy;&pcy;&acy;&scy;&ncy;&ycy;&iecy; &chcy;&acy;&scy;&tcy;&icy;, &kcy;&ocy;&mcy;&pcy;&lcy;&iecy;&kcy;&tcy;&ucy;&yucy;&shchcy;&icy;&iecy; &icy; &tcy;&iecy;&khcy;&ncy;&icy;&chcy;&iecy;&scy;&kcy;&icy;&iecy; &zhcy;&icy;&dcy;&kcy;&ocy;&scy;&tcy;&icy; &dcy;&lcy;&yacy; &vcy;&scy;&iecy;&gcy;&ocy; &mcy;&ocy;&dcy;&iecy;&lcy;&softcy;&ncy;&ocy;&gcy;&ocy; &rcy;&yacy;&dcy;&acy; &acy;&vcy;&tcy;&ocy;&mcy;&ocy;&bcy;&icy;&lcy;&iecy;&jcy; Mazda.
+          .d-flex.align-items-center.col-12.col-md-6
+            h2.list-num.text-white 03
+            p
+              | &Mcy;&ycy; &pcy;&rcy;&icy;&mcy;&iecy;&ncy;&yacy;&iecy;&mcy; &ocy;&rcy;&icy;&gcy;&icy;&ncy;&acy;&lcy;&softcy;&ncy;&ycy;&iecy; &icy; &kcy;&acy;&chcy;&iecy;&scy;&tcy;&vcy;&iecy;&ncy;&ncy;&ycy;&iecy; &ncy;&iecy; &ocy;&rcy;&icy;&gcy;&icy;&ncy;&acy;&lcy;&softcy;&ncy;&ycy;&iecy; &zcy;&acy;&pcy;&chcy;&acy;&scy;&tcy;&icy; &dcy;&lcy;&yacy; &acy;&vcy;&tcy;&ocy;&mcy;&ocy;&bcy;&icy;&lcy;&iecy;&jcy; Mazda. &Ncy;&acy; &vcy;&scy;&iecy; &rcy;&acy;&bcy;&ocy;&tcy;&ycy; &icy; &zcy;&acy;&pcy;&acy;&scy;&ncy;&ycy;&iecy; &chcy;&acy;&scy;&tcy;&icy; &mcy;&ycy; &dcy;&acy;&iecy;&mcy; &gcy;&acy;&rcy;&acy;&ncy;&tcy;&icy;&yucy;.
+          .d-flex.align-items-center.col-12.col-md-6
+            h2.list-num 04
+            p
+              | &Tcy;&iecy;&khcy;&tscy;&iecy;&ncy;&tcy;&rcy; DVS-Mazda &ocy;&scy;&ncy;&acy;&shchcy;&iecy;&ncy; &scy;&ocy;&vcy;&rcy;&iecy;&mcy;&iecy;&ncy;&ncy;&ycy;&mcy;&icy; &scy;&tcy;&iecy;&ncy;&dcy;&acy;&mcy;&icy; &dcy;&lcy;&yacy; &dcy;&icy;&acy;&gcy;&ncy;&ocy;&scy;&tcy;&icy;&kcy;&icy; &icy; &rcy;&iecy;&mcy;&ocy;&ncy;&tcy;&acy; &lcy;&yucy;&bcy;&ocy;&jcy; &scy;&lcy;&ocy;&zhcy;&ncy;&ocy;&scy;&tcy;&icy; &acy;&vcy;&tcy;&ocy;&mcy;&ocy;&bcy;&icy;&lcy;&iecy;&jcy; Mazda.
+  section.form-section
+    .container.mx-auto.text-center.text-white.text-uppercase
+      .row.mb-4
+        .col-12
+          h2 &ocy;&scy;&tcy;&acy;&lcy;&icy;&scy;&softcy; &vcy;&ocy;&pcy;&rcy;&ocy;&scy;&ycy;?
+      .row.mb-4
+        .col-12
+          h3 &CHcy;&tcy;&ocy;&bcy;&ycy; &pcy;&ocy;&lcy;&ucy;&chcy;&icy;&tcy;&softcy; &bcy;&ocy;&lcy;&softcy;&shcy;&iecy; &icy;&ncy;&fcy;&ocy;&rcy;&mcy;&acy;&tscy;&icy;&icy;, &pcy;&ocy;&zcy;&vcy;&ocy;&ncy;&icy;&tcy;&iecy; &ncy;&acy;&mcy; &icy;&lcy;&icy;  &zcy;&acy;&pcy;&ocy;&lcy;&ncy;&icy;&tcy;&iecy; &fcy;&ocy;&rcy;&mcy;&ucy; &ncy;&icy;&zhcy;&iecy;
+      .row
+        .col-12
+          form.row.g-3.needs-validation.was-validated(novalidate='')
+            .col-md-4.position-relative
+              label.form-label(for='validationTooltip01') &Vcy;&acy;&shcy;&iecy; &icy;&mcy;&yacy;
+              input#validationTooltip01.form-control(type='text' value='Mark' required='')
+            .col-md-4.position-relative
+              label.form-label(for='validationTooltip02') &Vcy;&acy;&shcy; &tcy;&iecy;&lcy;&iecy;&fcy;&ocy;&ncy;
+              input#validationTooltip02.form-control(type='text' value='Otto' required='')
+              .valid-tooltip
+                | &Pcy;&rcy;&iecy;&kcy;&rcy;&acy;&scy;&ncy;&ocy; :)
+            .col-md-4.position-relative
+              label.form-label(for='validationTooltipUsername') &Vcy;&acy;&shcy;&icy; &Tcy;&iecy;&lcy;&iecy;&gcy;&rcy;&acy;&mcy; &kcy;&ocy;&ncy;&tcy;&acy;&kcy;&tcy;&ycy;
+              .input-group.has-validation
+                span#validationTooltipUsernamePrepend.input-group-text @
+                input#validationTooltipUsername.form-control(type='text' aria-describedby='validationTooltipUsernamePrepend' required='')
+                .invalid-tooltip
+                  | &Zcy;&acy;&pcy;&ocy;&lcy;&ncy;&icy;&tcy;&iecy; &vcy;&acy;&shcy;&iecy; &pcy;&ocy;&lcy;&iecy; :(
+            .col-md-6.position-relative
+              label.form-label(for='validationTooltip03') City
+              input#validationTooltip03.form-control(type='text' required='')
+              .invalid-tooltip
+                | &Zcy;&acy;&pcy;&ocy;&lcy;&ncy;&icy;&tcy;&iecy; &vcy;&acy;&shcy;&iecy; &pcy;&ocy;&lcy;&iecy; :(
+            .col-md-3.position-relative
+              label.form-label(for='validationTooltip04') State
+              select#validationTooltip04.form-select(required='')
+                option(selected='' disabled='' value='') JavaScript
+                option Angular
+                option React
+                option Vue
+                option Preact
+                option Svelte
+              .invalid-tooltip
+                | &Zcy;&acy;&pcy;&ocy;&lcy;&ncy;&icy;&tcy;&iecy; &vcy;&acy;&shcy;&iecy; &pcy;&ocy;&lcy;&iecy; :(
+            .col-12.mt-4
+              button.btn.btn-primary(type='submit') &Ocy;&tcy;&pcy;&rcy;&acy;&vcy;&icy;&tcy;&softcy;
+footer#footer.text-uppercase
+  .footer-container.container.mx-auto
+    .row.gap-5.gap-xxl-0
+      article.col-7.col-xxl-3.text-white.order-last.order-xxl-first
+        ul.d-flex.flex-xxl-column.gap-4.gap-xxl-1.mini-text.flex-wrap
+          li &Ocy; &kcy;&ocy;&mcy;&pcy;&acy;&ncy;&icy;&icy;
+          li &Bcy;&lcy;&ocy;&gcy;
+          li &Zcy;&acy;&pcy;&chcy;&acy;&scy;&tcy;&icy;
+          li &Gcy;&acy;&rcy;&acy;&ncy;&tcy;&icy;&yacy;
+          li &Zcy;&acy;&pcy;&icy;&scy;&softcy;
+          li &Kcy;&ocy;&ncy;&tcy;&acy;&kcy;&tcy;&ycy;
+      article.col-7.col-xxl-6
+        h3.text-white.fs-5 &Ucy;&scy;&lcy;&ucy;&gcy;&icy;
+        .footer-line.my-3
+        .footer-list.d-flex
+          ul.d-flex.flex-column.gap-1
+            li &Zcy;&acy;&mcy;&iecy;&ncy;&acy; &scy;&tcy;&iecy;&kcy;&ocy;&lcy;
+            li &Scy;&khcy;&ocy;&dcy; &rcy;&acy;&zcy;&vcy;&acy;&lcy;
+            li &Kcy;&ucy;&zcy;&ocy;&vcy;&ncy;&ocy;&jcy; &rcy;&iecy;&mcy;&ocy;&ncy;&tcy;
+            li &SHcy;&icy;&ncy;&ocy;&mcy;&ocy;&ncy;&tcy;&acy;&zhcy;
+            li &Pcy;&rcy;&ocy;&tcy;&icy;&vcy;&ocy;&ucy;&gcy;&ocy;&ncy;&ncy;&ycy;&iecy; &scy;&icy;&scy;&tcy;&iecy;&mcy;&ycy;
+            li &Zcy;&acy;&pcy;&rcy;&acy;&vcy;&kcy;&acy; &icy; &rcy;&iecy;&mcy;&ocy;&ncy;&tcy; &kcy;&ocy;&ncy;&dcy;&icy;&tscy;&icy;&ocy;&ncy;&iecy;&rcy;&ocy;&vcy;
+            li &Ecy;&vcy;&acy;&kcy;&ucy;&acy;&tcy;&ocy;&rcy;
+          ul.d-flex.flex-column.gap-1
+            li &Tcy;&iecy;&khcy;&ocy;&bcy;&scy;&lcy;&ucy;&zhcy;&icy;&vcy;&acy;&ncy;&icy;&iecy;
+            li &Kcy;&ocy;&mcy;&pcy;&softcy;&yucy;&tcy;&iecy;&rcy;&ncy;&acy;&yacy; &dcy;&icy;&acy;&gcy;&ncy;&ocy;&scy;&tcy;&icy;&kcy;&acy;
+            li &Rcy;&iecy;&mcy;&ocy;&ncy;&tcy; &Acy;&Kcy;&Pcy;&Pcy; &Mcy;&acy;&zcy;&dcy;&acy;
+            li &Rcy;&iecy;&mcy;&ocy;&ncy;&tcy; &dcy;&vcy;&icy;&gcy;&acy;&tcy;&iecy;&lcy;&yacy;
+            li &Rcy;&iecy;&mcy;&ocy;&ncy;&tcy; &ecy;&lcy;&iecy;&kcy;&tcy;&rcy;&icy;&kcy;&icy;
+            li &Rcy;&iecy;&mcy;&ocy;&ncy;&tcy; &scy;&icy;&scy;&tcy;&iecy;&mcy;&ycy; &ocy;&khcy;&lcy;&acy;&zhcy;&dcy;&iecy;&ncy;&icy;&yacy;
+            li &Rcy;&iecy;&mcy;&ocy;&ncy;&tcy; &vcy;&ycy;&khcy;&lcy;&ocy;&pcy;&ncy;&ocy;&jcy; &scy;&icy;&scy;&tcy;&iecy;&mcy;&ycy;
+      article.col-7.col-xxl-3
+        ul
+          li.d-flex.justify-content-between.align-items-center
+            a.text-white(href='tel:+74955079649') +7 (495) 507-96-49
+            #romandev06.d-flex.gap-3.gap-xxl-2
+              a(href='https://t.me/romandev_06' target='_blank')
+                img(src='img/whatsap.svg' alt='')
+              a(href='https://t.me/romandev_06' target='_blank')
+                img(src='img/telega.svg' alt='')
+          .number-line.my-3
+          li
+            | 123290, &gcy;. &Mcy;&ocy;&scy;&kcy;&vcy;&acy;, &IEcy;&rcy;&mcy;&acy;&kcy;&ocy;&vcy;&acy; &rcy;&ocy;&shchcy;&acy;, 7&Acy; &scy;&tcy;&rcy;.1. 
+            br
+            |  &Tcy;&iecy;&rcy;&rcy;&icy;&tcy;&ocy;&rcy;&icy;&yacy; 14 &Tcy;&Mcy;&Pcy;.&Mcy;. &SHcy;&iecy;&lcy;&iecy;&pcy;&icy;&khcy;&acy;,  
+            br
+            |  &mcy;. &Dcy;&iecy;&lcy;&ocy;&vcy;&ocy;&jcy; &tscy;&iecy;&ncy;&tcy;&rcy; &icy; &mcy;. &Vcy;&ycy;&scy;&tcy;&acy;&vcy;&ocy;&chcy;&ncy;&acy;&yacy;.
+          li.mt-2.mb-4
+            a.text-white(href='mailto:info@dvs-motors.pro') info@dvs-motors.pro
+          li
+            a(href='#romandev06')
+              button.btn.footer-btn.text-white(type='submit') &Ocy;&tcy;&pcy;&rcy;&acy;&vcy;&icy;&tcy;&softcy; &scy;&ocy;&ocy;&bcy;&shchcy;&iecy;&ncy;&icy;&iecy;
+  .footer-full-line
+  p.text-center.mt-3
+    | &Vcy;&scy;&iecy; &pcy;&rcy;&acy;&vcy;&acy; &ncy;&acy; &tcy;&ocy;&rcy;&gcy;&ocy;&vcy;&ycy;&iecy; &zcy;&ncy;&acy;&kcy;&icy; &icy; &icy;&zcy;&ocy;&bcy;&rcy;&acy;&zhcy;&iecy;&ncy;&icy;&yacy; &pcy;&rcy;&icy;&ncy;&acy;&dcy;&lcy;&iecy;&zhcy;&acy;&tcy; &kcy;&ocy;&mcy;&pcy;&acy;&ncy;&icy;&icy; Mazda Motor Corporation.&Ocy;&pcy;&tcy;&icy;&mcy;&icy;&zcy;&acy;&tscy;&icy;&yacy; &scy;&acy;&jcy;&tcy;&ocy;&vcy; &Gcy;&ocy;&lcy;&dcy;&iecy;&ncy;&scy;&tcy;&ucy;&dcy;&icy;&ocy;.&rcy;&ucy;
+script(src='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js')
+script.
+  var swiper = new Swiper(".mySwiper", {
+  navigation: {
+  nextEl: ".swiper-button-next",
+  prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+  el: ".swiper-pagination",
+  clickable: true,
+  },
+  });
+script(src='js/bootstrap.bundle.min.js')
+script(src='js/script.js')
