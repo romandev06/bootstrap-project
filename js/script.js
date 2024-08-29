@@ -36,7 +36,6 @@ if (parseData) {
         )
 
 
-
         const subscribeBtn = document.getElementById('subscribe-btnWin')
 
         subscribeBtn.addEventListener('click', () => {
@@ -47,3 +46,8 @@ if (parseData) {
         })
     })
 }
+
+
+
+const dropDownMenu = document.querySelector('.drop-down-menu')
+dropDownMenu.addEventListener('click', (e) => e.preventDefault())
